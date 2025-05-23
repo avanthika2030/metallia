@@ -1,0 +1,428 @@
+/*--------------------------------------------------------------
+# Cutting Page Styles
+--------------------------------------------------------------*/
+
+/* Precision Showcase Slideshow */
+.precision-showcase {
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.showcase-slider {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.showcase-item {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.showcase-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.3s ease;
+}
+
+/* Style for side slides - shaded effect */
+.swiper-slide-prev .showcase-item,
+.swiper-slide-next .showcase-item {
+  opacity: 0.7;
+  transform: scale(0.85);
+  filter: brightness(0.7) grayscale(0.3);
+  overflow: hidden;
+}
+
+/* Style for active center slide - highlighted */
+.swiper-slide-active .showcase-item {
+  opacity: 1;
+  transform: scale(1);
+  filter: brightness(1) grayscale(0);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.showcase-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.showcase-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0.7;
+  margin: 0 5px;
+}
+
+.showcase-pagination .swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+  opacity: 1;
+}
+
+/* Navigation arrows */
+.showcase-navigation {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.showcase-prev,
+.showcase-next {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.showcase-prev:hover,
+.showcase-next:hover {
+  background-color: var(--primary-color);
+}
+
+/* Cutting Categories Section */
+.cutting-categories {
+  padding: 60px 0;
+  background-color: #33373b;
+}
+
+.cutting-categories h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.cutting-categories h2:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 60px;
+  height: 3px;
+  background-color: var(--primary-color);
+  transform: translateX(-50%);
+}
+
+.category-card {
+  background-color: #222326;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary-color);
+}
+
+.category-image {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.category-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.category-card:hover .category-image img {
+  transform: scale(1.05);
+}
+
+.category-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  padding: 20px;
+  color: #393841;
+}
+
+.category-overlay h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.category-content {
+  padding: 25px;
+}
+
+.category-content h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.category-content p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.category-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.category-features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
+.category-features li i {
+  color: var(--primary-color);
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+.materials-cut {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.materials-cut span {
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+/* Enhanced Machine Showcase */
+.machine-showcase {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.machine-showcase h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.machine-list {
+  margin-top: 30px;
+}
+
+.machine-item {
+  background-color: #262424;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 100%;
+}
+
+.machine-item:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  border-color: var(--primary-color);
+}
+
+.machine-image {
+  height: 100%;
+  min-height: 350px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.machine-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.machine-item:hover .machine-image img {
+  transform: scale(1.05);
+}
+
+.machine-header {
+  margin-bottom: 15px;
+}
+
+.machine-details {
+  padding: 10px 0 10px 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.machine-details h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+/* Adjust column widths for machine cards */
+.machine-item .col-md-4 {
+  width: 50%;
+}
+
+.machine-item .col-md-8 {
+  width: 50%;
+}
+
+/* Make machine cards full width within container */
+.machine-item .row {
+  width: 100%;
+  margin: 0;
+}
+
+.machine-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.machine-specs span {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.machine-specs span i {
+  color: var(--primary-color);
+  margin-right: 5px;
+  font-size: 1rem;
+}
+
+.machine-details p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  margin-bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .category-image {
+    height: 200px;
+  }
+
+  .machine-details {
+    padding: 20px 0 0 0;
+  }
+
+  .machine-image {
+    min-height: 300px;
+  }
+
+  .machine-item {
+    padding: 20px;
+  }
+
+  .machine-item .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .cutting-categories {
+    padding: 40px 0;
+  }
+
+  .cutting-categories h2 {
+    font-size: 1.8rem;
+  }
+
+  .category-image {
+    height: 180px;
+  }
+
+  .category-overlay h3 {
+    font-size: 1.4rem;
+  }
+
+  .category-content {
+    padding: 20px;
+  }
+
+  .category-content h4 {
+    font-size: 1.2rem;
+  }
+
+  .machine-item {
+    padding: 15px;
+  }
+
+  .machine-details h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .machine-specs {
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .machine-specs span {
+    font-size: 0.8rem;
+    padding: 4px 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .category-image {
+    height: 160px;
+  }
+
+  .machine-image {
+    min-height: 150px;
+  }
+
+  .machine-details p {
+    font-size: 0.9rem;
+  }
+}
