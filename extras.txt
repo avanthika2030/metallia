@@ -1,239 +1,131 @@
-<!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Gallery</h2>
-        <div><span>Our Work</span> <span class="description-title">Showcase</span></div>
-      </div><!-- End Section Title -->
-
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
-            <li data-filter="*" class="filter-active">
-              <i class="bi bi-grid-3x3"></i> All Works
-            </li>
-            <li data-filter=".filter-fabrication">
-              <i class="bi bi-tools"></i> Fabrication
-            </li>
-            <li data-filter=".filter-architectural">
-              <i class="bi bi-building"></i> Architectural
-            </li>
-            <li data-filter=".filter-decorative">
-              <i class="bi bi-stars"></i> Decorative
-            </li>
-            <li data-filter=".filter-custom">
-              <i class="bi bi-palette"></i> Custom Projects
-            </li>
-          </ul>
-
-          <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-fabrication">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/gallery/metal-fabrication-1.jpg" class="img-fluid" alt="Metal Fabrication" loading="lazy">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Fabrication</div>
-                      <h3 class="entry-title">Precision Metal Cutting</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/gallery/metal-fabrication-1.jpg" class="glightbox" data-gallery="gallery-fabrication" data-glightbox="title: Precision Metal Cutting; description: High-precision laser cutting for complex metal components.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-architectural">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/gallery/architectural-1.jpg" class="img-fluid" alt="Architectural Metal" loading="lazy">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Architectural</div>
-                      <h3 class="entry-title">Modern Facade Elements</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/gallery/architectural-1.jpg" class="glightbox" data-gallery="gallery-architectural" data-glightbox="title: Modern Facade Elements; description: Custom metal facade elements for contemporary building designs.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-decorative">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/gallery/decorative-1.jpg" class="img-fluid" alt="Decorative Metal" loading="lazy">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Decorative</div>
-                      <h3 class="entry-title">Ornamental Metalwork</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/gallery/decorative-1.jpg" class="glightbox" data-gallery="gallery-decorative" data-glightbox="title: Ornamental Metalwork; description: Intricate decorative metal designs for luxury interiors.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-custom">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/gallery/custom-1.jpg" class="img-fluid" alt="Custom Project" loading="lazy">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Custom Projects</div>
-                      <h3 class="entry-title">Bespoke Metal Installation</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/gallery/custom-1.jpg" class="glightbox" data-gallery="gallery-custom" data-glightbox="title: Bespoke Metal Installation; description: Custom-designed metal installation for a corporate headquarters.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-fabrication">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/gallery/metal-fabrication-2.jpg" class="img-fluid" alt="Metal Fabrication" loading="lazy">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Fabrication</div>
-                      <h3 class="entry-title">Welded Metal Structures</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/gallery/metal-fabrication-2.jpg" class="glightbox" data-gallery="gallery-fabrication" data-glightbox="title: Welded Metal Structures; description: Precision welding for structural metal components.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-architectural">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/gallery/architectural-2.jpg" class="img-fluid" alt="Architectural Metal" loading="lazy">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Architectural</div>
-                      <h3 class="entry-title">Metal Staircase Design</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/gallery/architectural-2.jpg" class="glightbox" data-gallery="gallery-architectural" data-glightbox="title: Metal Staircase Design; description: Custom-designed metal staircases for modern interiors.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-decorative">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/gallery/decorative-2.jpg" class="img-fluid" alt="Decorative Metal" loading="lazy">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Decorative</div>
-                      <h3 class="entry-title">Artistic Metal Screens</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/gallery/decorative-2.jpg" class="glightbox" data-gallery="gallery-decorative" data-glightbox="title: Artistic Metal Screens; description: Decorative metal screens with intricate patterns for spatial division.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div><!-- End Gallery Item -->
-
-            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-custom">
-              <article class="portfolio-entry">
-                <figure class="entry-image">
-                  <img src="assets/img/gallery/custom-2.jpg" class="img-fluid" alt="Custom Project" loading="lazy">
-                  <div class="entry-overlay">
-                    <div class="overlay-content">
-                      <div class="entry-meta">Custom Projects</div>
-                      <h3 class="entry-title">Signature Metal Artwork</h3>
-                      <div class="entry-links">
-                        <a href="assets/img/gallery/custom-2.jpg" class="glightbox" data-gallery="gallery-custom" data-glightbox="title: Signature Metal Artwork; description: Custom metal art installation for a luxury hotel lobby.">
-                          <i class="bi bi-arrows-angle-expand"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </figure>
-              </article>
-            </div><!-- End Gallery Item -->
-
-          </div><!-- End Gallery Container -->
-
-        </div>
-
+<!-- Final Code with Smooth Animated Branching Images -->
+<div class="hover-container" style="position: relative; z-index: 10;">
+  <div class="row g-4 mt-3">
+    <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+      <div class="feature-item">
+        <i class="bi bi-check-circle-fill"></i>
+        <h3>Proudly ISO Certified:<br></h3>
+        <h5>9001 | 14001 | 45001</h5>
       </div>
+    </div>
+    
+  </div>
 
-    </section><!-- /Gallery Section -->
+  <!-- Branched Images -->
+  <div class="branched-images">
+    <div class="branched-img" style="top: -150px; right: -160px; transition-delay: 0.1s;">
+      <img src="img1.jpg" alt="Document 1" />
+      <button class="maximize-btn" onclick="maximizeImage('img1.jpg')">🔍</button>
+    </div>
+    <div class="branched-img" style="top: 50%; right: -180px; transform: translateY(-50%); transition-delay: 0.2s;">
+      <img src="img2.jpg" alt="Document 2" />
+      <button class="maximize-btn" onclick="maximizeImage('img2.jpg')">🔍</button>
+    </div>
+    <div class="branched-img" style="bottom: -150px; right: -160px; transition-delay: 0.3s;">
+      <img src="img3.jpg" alt="Document 3" />
+      <button class="maximize-btn" onclick="maximizeImage('img3.jpg')">🔍</button>
+    </div>
+  </div>
+</div>
 
+<!-- Lightbox Image Viewer -->
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="Full View" />
+</div>
 
+<style>
+.hover-container {
+  position: relative;
+}
 
+.branched-images {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  z-index: 999;
+}
 
+.hover-container:hover .branched-images,
+.branched-images:hover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
 
+.branched-img {
+  position: absolute;
+  width: 150px;
+  aspect-ratio: 1 / 1.414; /* A4 aspect ratio */
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
 
+.hover-container:hover .branched-img,
+.branched-images:hover .branched-img {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
 
+.branched-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
 
+.maximize-btn {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
 
+/* Lightbox full view */
+#lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
 
+#lightbox img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+}
+</style>
 
-
-
-
-
-
-
-
-
-
-
-<div class="machine-item" data-aos="fade-up">
-                    <div class="row">
-                      <div class="col-12">
-                        <div class="machine-header">
-                          <h4>Thoman Pipe Bending Machine</h4>
-                          <div class="machine-specs">
-                            <span><i class="bi bi-rulers"></i> 20 mm – 130 mm</span>
-                            <span><i class="bi bi-speedometer"></i> Up to 10°/sec</span>
-                            <span><i class="bi bi-flag"></i> Made in Germany</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row align-items-center mt-3">
-                      <div class="col-md-6">
-                        <div class="machine-image">
-                          <img src="assets\img\services\finishing\inspecvision reverse engineering.png" alt="TRUMPF TruLaser 5030 fiber" class="img-fluid rounded shadow-sm">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="machine-details">
-                          <p>The Thoman Pipe Bending Machine is a versatile and powerful machine designed for bending a wide range of pipe sizes with high precision. Made in Germany, it can handle pipe diameters from 20 mm up to 130 mm, with maximum wall thicknesses reaching 6 mm. This machine is equipped with hydraulic bending systems and advanced CNC controls that allow for programmable bending angles and multiple bends in a single cycle. It delivers bending speeds up to 10 degrees per second, with a bending radius as tight as 2 times the pipe diameter. The Thoman pipe bender is widely used in industries such as construction, automotive, and shipbuilding due to its reliability and consistent bending quality. </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+<script>
+function maximizeImage(src) {
+  document.getElementById('lightbox-img').src = src;
+  document.getElementById('lightbox').style.display = 'flex';
+}
+function closeLightbox() {
+  document.getElementById('lightbox').style.display = 'none';
+}
+</script>
